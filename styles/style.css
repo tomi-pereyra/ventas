@@ -4,6 +4,8 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: 'Raleway', 'Poppins', sans-serif;
+  list-style: none;
+  text-decoration: none;
 }
 
 html {
@@ -234,6 +236,11 @@ html {
   font-weight: 500;
   font-size: 1.6rem;
   line-height: 1.8rem;
+  color: var(--color-gray-3);
+}
+
+.footer-container .footer-temas ul li a {
+  text-decoration: none;
   color: var(--color-gray-3);
 }
 

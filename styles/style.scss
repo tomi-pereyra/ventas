@@ -3,6 +3,8 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Raleway', 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
 }
 
 html {
@@ -187,6 +189,10 @@ html {
                 font-size: 1.6rem;
                 line-height: 1.8rem;
                 color: var(--color-gray-3);
+                a {
+                    text-decoration: none;
+                    color: var(--color-gray-3);
+                }
             }
         }
 
