@@ -125,6 +125,10 @@ html {
   margin-left: 3rem;
 }
 
+.header-top .login-btn-container .login-btn .login-btn-btn:hover {
+  cursor: pointer;
+}
+
 .header-top .logo-search-mobile {
   display: none;
 }
@@ -189,6 +193,10 @@ html {
   background-color: var(--color-blue);
   padding: 12px 20px;
   margin-top: 16px;
+}
+
+.hero-container .hero-container-container .hero-btn:hover {
+  cursor: pointer;
 }
 
 @media screen and (max-width: 600px) {
@@ -309,6 +317,10 @@ html {
   padding: 16px;
   background-color: var(--color-blue);
   margin: 10px 0 0 0;
+}
+
+.footer-container .footer-form .footer-form-btn:hover {
+  cursor: pointer;
 }
 
 @media screen and (max-width: 800px) {

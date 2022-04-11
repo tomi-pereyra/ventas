@@ -87,6 +87,9 @@ html {
                 padding: 14px 60px;
                 background-color: var(--color-white);
                 margin-left: 3rem;
+                &:hover {
+                    cursor: pointer;
+                }
             }
         }
     }
@@ -151,6 +154,9 @@ html {
             background-color: var(--color-blue);
             padding: 12px 20px;
             margin-top: 16px;
+            &:hover {
+                cursor: pointer;
+            }
         }
     }
     @media screen and (max-width: 600px) {
@@ -254,6 +260,9 @@ html {
             padding: 16px;
             background-color: var(--color-blue);
             margin: 10px 0 0 0;
+            &:hover {
+                cursor: pointer;
+            }
         }
     }
 }
