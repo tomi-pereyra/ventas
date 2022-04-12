@@ -1,0 +1,43 @@
+.section-producto {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+    figure {
+        width: 520px;
+        img {
+            width: 100%;
+        }
+    }
+    .description {
+        margin-left: 15px;
+        h2 {
+            font-weight: 500;
+            font-size: 4rem;
+            line-height: 4.5rem;
+            color: var(--color-gray-3);
+        }
+        .price {
+            font-weight: 700;
+            font-size: 1.6rem;
+            line-height: 1.8rem;
+            color: var(--color-gray-3);
+        }
+        .description-p {
+            font-weight: 400;
+            font-size: 1.6rem;
+            line-height: 1.8rem;
+            color: var(--color-gray-3);
+        }
+    }
+}
+@media screen and (max-width: 850px) {
+    .section-producto {
+        flex-direction: column;
+        width: 320px;
+        figure {
+            width: 320px;
+        }
+    }
+}
